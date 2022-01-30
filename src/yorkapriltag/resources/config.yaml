@@ -1,0 +1,13 @@
+tag:
+  id: 0
+  firstvertex: [3.62,0.082,0.403]#left-bottom
+  secondvertex: [3.62,-0.082,0.403]#right-bottom
+  thirdvertex: [3.62,-0.082,0.567]
+  fourthvertex: [3.62,0.082,0.567]
+  
+tag:
+  id: 1
+  firstvertex: [3.62,-0.13,0.403]#left-bottom
+  secondvertex: [3.62,-0.293,0.403]#right-bottom
+  thirdvertex: [3.62,-0.294,0.567]
+  fourthvertex: [3.62,-0.13,0.567]

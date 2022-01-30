@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package>
+  <name>apriltag</name>
+  <version>1.0.0</version>
+  <description>
+	Apriltag detection using lidar
+  </description>
+
+  <maintainer email="hunterls@yorku.ca">Hunter Schofield</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>dynamic_reconfigure</build_depend>   
+  <build_depend>pcl_ros</build_depend>
+  <build_depend>pcl_conversions</build_depend>
+
+  <run_depend>roscpp</run_depend>
+  <run_depend>dynamic_reconfigure</run_depend>   
+  <run_depend>pcl_ros</run_depend>
+  <run_depend>pcl_conversions</run_depend>
+
+</package>

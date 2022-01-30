@@ -1,0 +1,26 @@
+<launch>
+   <node pkg="yorkapriltag" type="detect_apriltag" name="detect_apriltag" output="screen">
+      <param name="lidar_topic" value="/livox/lidar" />
+      <param name="integration_size" value="60" />
+      <param name="angular_resolution_x_deg" value="0.05" />
+      <param name="angular_resolution_y_deg" value="0.05" />
+      <param name="max_angular_width_deg" value="39" />
+      <param name="max_angular_height_deg" value="39" />
+      <param name="image_threshold" value="60" />   
+      <param name="add_blur" value="false" />
+
+      <!-- Tag Settings-->
+      <param name="tag_family" value="tag36h11" /> 
+      <param name="tag_decimate" value="2.0" /> 
+      <param name="tag_blur" value="0.0" /> 
+      <param name="tag_threads" value="1" /> 
+      <param name="tag_debug" value="false" /> 
+      <param name="tag_refine_edges" value="true" /> 
+   </node>
+</launch>
+<!--livox mid-40: /livox/lidar vlp32:/velodyne_points-->
+<!--livox mid-40: 60 vlp32:1-->
+<!--livox mid-40: 0.05 0.05 vlp32: 0.3 0.33-->
+<!--livox mid-40: 39 39 vlp32: 360 180-->
+<!--livox mid-40: 60 vlp32: 25-->
+<!--Remember to change the tag setting accordingly-->

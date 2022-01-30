@@ -1,0 +1,6 @@
+yorkapriltag
+/home/sdcnlab/IILFM/devel/.private/yorkapriltag/cmake.lock /home/sdcnlab/IILFM/devel/./cmake.lock
+/home/sdcnlab/IILFM/devel/.private/yorkapriltag/share/yorkapriltag/cmake/yorkapriltagConfig.cmake /home/sdcnlab/IILFM/devel/share/yorkapriltag/cmake/yorkapriltagConfig.cmake
+/home/sdcnlab/IILFM/devel/.private/yorkapriltag/share/yorkapriltag/cmake/yorkapriltagConfig-version.cmake /home/sdcnlab/IILFM/devel/share/yorkapriltag/cmake/yorkapriltagConfig-version.cmake
+/home/sdcnlab/IILFM/devel/.private/yorkapriltag/lib/pkgconfig/yorkapriltag.pc /home/sdcnlab/IILFM/devel/lib/pkgconfig/yorkapriltag.pc
+/home/sdcnlab/IILFM/devel/.private/yorkapriltag/lib/yorkapriltag/detect_apriltag /home/sdcnlab/IILFM/devel/lib/yorkapriltag/detect_apriltag
