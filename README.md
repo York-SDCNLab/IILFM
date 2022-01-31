@@ -11,7 +11,7 @@ Boost <br>
 ```git clone https://github.com/York-SDCNLab/IILFM.git```<br>
 ```cd IILFM```<br>
 ```catkin build```<br>
-Modify the customizable parameters in ```yorktag.launch```  (~/IILFM/src/yorkapriltag/launch) according to your LiDAR model and the employed tag family. Then modify the ``config.yaml`` (~/IILFM/src/yorkapriltag/resources) based on your setup. Otherwise, the outputted pose is meaningless. Afterward, run <br>
+Modify the ```yorktag.launch``` in ~/IILFM/src/yorkapriltag/launch according to your LiDAR model and the employed tag family. Then modify the ``config.yaml`` in ~/IILFM/src/yorkapriltag/resources based on your setup. Otherwise, the outputted pose is meaningless. Afterward, run <br>
 ```source ./devel/setup.bash```<br>
 ```roslaunch yorkapriltag yorktag.launch```<br>
 Open a new terminal in ~/IILFM/src/yorkapriltag/resources <br>
