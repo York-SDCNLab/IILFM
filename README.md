@@ -14,7 +14,7 @@ Boost <br>
 Modify the ```yorktag.launch``` in ~/IILFM/src/yorkapriltag/launch according to your LiDAR model and the employed tag family. Then modify the ``config.yaml`` in ~/IILFM/src/yorkapriltag/resources based on your setup. Otherwise, the outputted pose is meaningless. Afterward, run <br>
 ```source ./devel/setup.bash```<br>
 ```roslaunch yorkapriltag yorktag.launch```<br>
-Open a new terminal in ~/IILFM/src/yorkapriltag/resources <br>
+Open a new terminal in ~/IILFM/src/yorkapriltag/resources and run <br>
 ```rosbag play -l bagname.bag```<br>
 <br>
 To view the 6-DOF pose, open a new terminal and run<br>
