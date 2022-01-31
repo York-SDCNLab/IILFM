@@ -1,5 +1,10 @@
 # Intensity Image-based LiDAR Fiducial Marker System
 Extensive research has been carried out on the Visual Fiducial Marker (VFM) system. However, no single study utilizes this system to its fullest potential in LiDAR applications. In this paper, we develop an Intensity Image-based LiDAR Fiducial Marker (IILFM) system which fills the above-mentioned gap. The proposed system only requires an unstructured point cloud with intensity as the input and it outputs the detected markers' information and the 6-DOF pose that describes the transmission from the world coordinate system to the LiDAR coordinate system. The use of the IIFLM system is as convenient as the conventional VFM systems with no restrictions on marker placement and shape. Different VFM systems, such as Apriltag, ArUco, CCTag, can be easily embedded into the system. Hence, the proposed system inherits the functionality of the VFM systems, such as the coding and decoding methods.
+<img width="600" height="600" src="https://user-images.githubusercontent.com/58899542/151822834-e7758e70-849f-483d-b2fd-df93b1fe0aa5.png"/> <br>
+
+
+
+
 ## Requirements
 PCL 1.3 <br>
 OpenCV <br>
