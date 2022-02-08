@@ -19,16 +19,22 @@ The proposed system shows potential in augmented reality, SLAM, multisensor calb
 
 
 ## Requirements
-* Ubuntu 20.04
+* Ubuntu 20.04 <br>
+Other versions of the Ubuntu system could work if the following libraries are installed correctly. However, it might not be that easy to install some of the libraries if the version is before 20.04.<br>
 * PCL 1.3 <br>
-* ``sudo apt update``<br>
+``sudo apt update``<br>
 ``sudo apt install libpcl-dev``<br>
 * OpenCV <br>
 ``sudo apt update``<br>
 ``sudo apt install libopencv-dev python3-opencv``<br>
-catkin <br>
-yaml-cpp <br>
-Boost <br>
+* catkin<br>
+``sudo apt update``<br>
+``sudo apt install catkin``<br>
+* yaml-cpp <br>
+``sudo apt update``<br>
+``sudo apt-get install libyaml-cpp-dev``<br>
+* Boost <br>
+``sudo apt-get install libboost-all-dev``
 
 ## Commands
 ```git clone https://github.com/York-SDCNLab/IILFM.git```<br>
