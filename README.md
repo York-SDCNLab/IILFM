@@ -19,8 +19,13 @@ The proposed system shows potential in augmented reality, SLAM, multisensor calb
 
 
 ## Requirements
-PCL 1.3 <br>
-OpenCV <br>
+* Ubuntu 20.04
+* PCL 1.3 <br>
+* ``sudo apt update``<br>
+``sudo apt install libpcl-dev``<br>
+* OpenCV <br>
+``sudo apt update``<br>
+``sudo apt install libopencv-dev python3-opencv``<br>
 catkin <br>
 yaml-cpp <br>
 Boost <br>
