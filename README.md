@@ -21,7 +21,7 @@ The proposed system shows potential in augmented reality, SLAM, multisensor calb
 ## Requirements
 * Ubuntu 20.04 <br>
 Other versions of the Ubuntu system could work if the following libraries are installed correctly. However, it might not be that easy to install some of the libraries if the version is before 20.04.<br>
-* PCL 1.3 <br>
+* PCL <br>
 ``sudo apt update``<br>
 ``sudo apt install libpcl-dev``<br>
 * OpenCV <br>
@@ -34,6 +34,7 @@ Other versions of the Ubuntu system could work if the following libraries are in
 ``sudo apt update``<br>
 ``sudo apt-get install libyaml-cpp-dev``<br>
 * Boost <br>
+``sudo apt update``<br>
 ``sudo apt-get install libboost-all-dev``
 
 ## Commands
