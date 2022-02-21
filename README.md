@@ -23,6 +23,8 @@ The proposed system shows potential in augmented reality, SLAM, multisensor calb
 ## Requirements
 * Ubuntu 20.04 <br>
 Other versions of the Ubuntu system could work if the following libraries are installed correctly. However, it might not be that easy to install some of the libraries if the version is before 20.04.<br>
+* ROS Noetic <br>
+[Ubuntu install of ROS Noetic](http://wiki.ros.org/noetic/Installation/Ubuntu)<br>
 * PCL <br>
 ``sudo apt update``<br>
 ``sudo apt install libpcl-dev``<br>
@@ -44,7 +46,7 @@ Other versions of the Ubuntu system could work if the following libraries are in
 ```cd IILFM```<br>
 ```catkin build```<br>
 <br>
-Modify the ```yorktag.launch``` in ~/IILFM/src/yorkapriltag/launch according to your LiDAR model (e.g. rostopic, angular resolutions, and so on) and the employed tag family. Then modify the ``config.yaml`` in ~/IILFM/src/yorkapriltag/resources based on your setup. Otherwise, the outputted pose is meaningless. Afterward, run <br>
+Modify the ```yorktag.launch``` in ~/IILFM/src/yorkapriltag/launch according to your LiDAR model (e.g. rostopic, angular resolutions, and so on) and the employed tag family. Then modify the ``config.yaml`` in ~/IILFM/src/yorkapriltag/resources based on your setup (define the locations of the vertices with respect to the world coordinate system). Otherwise, the outputted pose is meaningless. Afterward, run <br>
 ```source ./devel/setup.bash```<br>
 ```roslaunch yorkapriltag yorktag.launch```<br>
 Open a new terminal in ~/IILFM/src/yorkapriltag/resources and run <br>
