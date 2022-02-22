@@ -22,9 +22,10 @@ The proposed system shows potential in augmented reality, SLAM, multisensor calb
 
 ## Requirements
 * Ubuntu 20.04 <br>
-Other versions of the Ubuntu system could work if the following libraries are installed correctly. However, it might not be that easy to install some of the libraries if the version is before 20.04.<br>
+Other versions of the Ubuntu system could work if the following libraries are installed correctly.<br>
 * ROS Noetic <br>
 [Ubuntu install of ROS Noetic](http://wiki.ros.org/noetic/Installation/Ubuntu)<br>
+Lower ROS versions could work. Yet you might have to deal with the conflicts of OpenCV4 and OpenCV3...
 * PCL <br>
 ``sudo apt update``<br>
 ``sudo apt install libpcl-dev``<br>
