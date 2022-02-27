@@ -15,8 +15,8 @@ Apriltag grid (35 markers) detection:<br>
 Detailed qualitative and quantitative evaluations are provided in our paper (will be available soon).
 ## Other Applications
 The proposed system shows potential in augmented reality, SLAM, multisensor calbartion, etc. Here, an augumented reality demo using the proposed system is presented. The teapot point cloud is transmitted to the location of the marker in the LiDAR point cloud based on the pose provided by the IILFM system. <br>
-![demo5](https://user-images.githubusercontent.com/58899542/152583787-add4a9f2-59c6-4e15-a112-f1d2ad10324e.gif)
-
+![demo5](https://user-images.githubusercontent.com/58899542/152583787-add4a9f2-59c6-4e15-a112-f1d2ad10324e.gif) <br>
+In this repository, we only release the version of which the embedded system is [Apriltag 3](https://github.com/AprilRobotics/apriltag). The versions with [ArUco](https://docs.opencv.org/3.4/d5/dae/tutorial_aruco_detection.html), [CCTag](https://cctag.readthedocs.io/en/latest/) detectors are coming soon. It is a very straightforward process to replace the embedded visual fiducial marker system. Hence, following the method introduced in our scripts, you may add any visual marker detector as you like.
 
 
 
