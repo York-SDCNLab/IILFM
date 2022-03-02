@@ -58,7 +58,7 @@ To view the 6-DOF pose, open a new terminal and run<br>
 <br>
 To view the point could of the detected 3D fiducials in rviz, open a new terminal and run rviz. In rviz, change the 'Fixed Frame' to 'livox_frame'. ``add/ By topic/ iilfm/ features/ PointCloud2``<br>
 <br>
-By default, the settings in ```yorktag.launch``` are corresponding to Livox Mid-40. If you just want to try our system and see how it works, there is no need to modify ```yorktag.launch``` and ``config.yaml``. You may simply run <br>
+* By default, the settings in '**yorktag.launch**' are corresponding to Livox Mid-40. If you just want to try our system and see how it works, there is no need to modify '**yorktag.launch**' and '**config.yaml**'. You may simply run <br>
 ```source ./devel/setup.bash```<br>
 ```roslaunch yorkapriltag yorktag.launch```<br>
 Then, in ~/IILFM/src/yorkapriltag/resources, open a new terminal and run <br>
