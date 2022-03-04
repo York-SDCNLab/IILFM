@@ -1,4 +1,6 @@
 # Intensity Image-based LiDAR Fiducial Marker System
+This is the repository for paper *Intensity Image-based LiDAR Fiducial Marker System* ([arXiv](https://arxiv.org/abs/2203.01816)).<br>
+<br>
 An introduction video is available at https://www.youtube.com/watch?v=AYBQHAEWBLM. <br>
 <br>
 Extensive research has been carried out on the Visual Fiducial Marker (VFM) systems. However, no single study utilizes these systems to their fullest potential in LiDAR applications. In this work, we develop an Intensity Image-based LiDAR Fiducial Marker (IILFM) system which fills the above-mentioned gap. The proposed system only requires an unstructured point cloud with intensity as the input and it outputs the detected markers' information and the 6-DOF pose that describes the transmission from the world coordinate system to the LiDAR coordinate system. The use of the IIFLM system is as convenient as the conventional VFM systems with no restrictions on marker placement and shape. Different VFM systems, such as [Apriltag 3](https://github.com/AprilRobotics/apriltag), [ArUco](https://docs.opencv.org/3.4/d5/dae/tutorial_aruco_detection.html), and [CCTag](https://cctag.readthedocs.io/en/latest/), can be easily embedded into the system. Hence, the proposed system inherits the functionality of the VFM systems, such as the coding and decoding methods.<br>
@@ -12,7 +14,7 @@ Apriltag grid (35 markers) detection:<br>
 ![demo3](https://user-images.githubusercontent.com/58899542/152580126-5306eb2e-7899-494a-a7bd-bb0f43427daa.gif)
 ## LiDAR Pose Estimation Demo
 ![demo4](https://user-images.githubusercontent.com/58899542/152581365-ff25f9c3-3fd2-4a1d-9525-2383717266b3.gif)
-Detailed qualitative and quantitative evaluations are provided in our paper (will be available soon).
+
 ## Other Applications
 The proposed system shows potential in augmented reality, SLAM, multisensor calbartion, etc. Here, an augumented reality demo using the proposed system is presented. The teapot point cloud is transmitted to the location of the marker in the LiDAR point cloud based on the pose provided by the IILFM system. <br>
 ![demo5](https://user-images.githubusercontent.com/58899542/152583787-add4a9f2-59c6-4e15-a112-f1d2ad10324e.gif) <br>
