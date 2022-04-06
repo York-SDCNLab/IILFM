@@ -68,3 +68,7 @@ To view the point could of the detected 3D fiducials in rviz, open a new termina
 Then, in ~/IILFM/src/yorkapriltag/resources, open a new terminal and run <br>
 ```rosbag play -l bagname.bag```<br>
 
+## Experimental result:
+Due to the page limitation, we removed this huge table from our manuscript submitted to RA-L and replaced it with a histogram. Considering that some readers might be interested in the ground truth, we present the table here. Please refer to our paper to see the detailed experimental setup.
+![table1](https://user-images.githubusercontent.com/58899542/162066700-d5afbac9-aa5e-49b9-a4d6-648e8bb8956c.png)
+
