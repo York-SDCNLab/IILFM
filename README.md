@@ -73,16 +73,16 @@ Due to the page limitation, we removed this huge table from our manuscript submi
 ![table1](https://user-images.githubusercontent.com/58899542/162066700-d5afbac9-aa5e-49b9-a4d6-648e8bb8956c.png)
 
 # Citation
-If you find this work helpful for your research, please cite our [paper](https://arxiv.org/abs/2109.03379#:~:text=With%20the%20proposed%20model%20trained,improves%20the%20marker%20detection%20significantly):
+If you find this work helpful for your research, please cite our [paper](https://ieeexplore.ieee.org/document/9774900):
 ```
 @ARTICLE{9774900,
   author={Liu, Yibo and Schofield, Hunter and Shan, Jinjun},
   journal={IEEE Robotics and Automation Letters}, 
-  title={Intensity Image-based LiDAR Fiducial Marker System}, 
+  title={Intensity Image-Based LiDAR Fiducial Marker System}, 
   year={2022},
-  volume={},
-  number={},
-  pages={1-1},
+  volume={7},
+  number={3},
+  pages={6542-6549},
   doi={10.1109/LRA.2022.3174971}}
 ```
 
