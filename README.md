@@ -1,10 +1,11 @@
 # Intensity Image-based LiDAR Fiducial Marker System
-This work has been accepted by the IEEE Robotics and Automation Letters: https://ieeexplore.ieee.org/document/9774900 <br>
+This work has been accepted by the [IEEE Robotics and Automation Letters.](https://ieeexplore.ieee.org/document/9774900) <br>
 <br>
 YouTube link to the introduction video: https://www.youtube.com/watch?v=AYBQHAEWBLM. <br>
-<br>
 Bilibili link to the introductio video: https://www.bilibili.com/video/BV1s34y147UM/. <br>
 <br>
+For fiducial marker detection in the point cloud captured when the LiDAR is in motion, please refer to our new work [Fiducial Marker Detection in Multi-Viewpoint Point Cloud.](https://github.com/York-SDCNLab/Marker-Detection-General)<br>
+## Background
 Extensive research has been carried out on the Visual Fiducial Marker (VFM) systems. However, no single study utilizes these systems to their fullest potential in LiDAR applications. In this work, we develop an Intensity Image-based LiDAR Fiducial Marker (IILFM) system which fills the above-mentioned gap. The proposed system only requires an unstructured point cloud with intensity as the input and it outputs the detected markers' information and the 6-DOF pose that describes the transmission from the world coordinate system to the LiDAR coordinate system. The use of the IIFLM system is as convenient as the conventional VFM systems with no restrictions on marker placement and shape. Different VFM systems, such as [Apriltag 3](https://github.com/AprilRobotics/apriltag), [ArUco](https://docs.opencv.org/3.4/d5/dae/tutorial_aruco_detection.html), and [CCTag](https://cctag.readthedocs.io/en/latest/), can be easily embedded into the system. Hence, the proposed system inherits the functionality of the VFM systems, such as the coding and decoding methods.<br>
 <img width="400" height="400" src="https://user-images.githubusercontent.com/58899542/151822834-e7758e70-849f-483d-b2fd-df93b1fe0aa5.png"/> <br>
 ## Marker Detection Demos
