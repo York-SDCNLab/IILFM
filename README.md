@@ -1,4 +1,6 @@
 # Intensity Image-based LiDAR Fiducial Marker System
+![2489_graph](https://github.com/York-SDCNLab/IILFM/assets/58899542/6d58d12c-9939-474a-a99b-3bb1c2de8ae6)
+
 This work has been accepted by the [IEEE Robotics and Automation Letters.](https://ieeexplore.ieee.org/document/9774900) <br>
 <br>
 YouTube link to the introduction video: https://www.youtube.com/watch?v=AYBQHAEWBLM. <br>
