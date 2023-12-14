@@ -7,7 +7,7 @@ YouTube link to the introduction video: https://www.youtube.com/watch?v=AYBQHAEW
 Bilibili link to the introduction video: https://www.bilibili.com/video/BV1s34y147UM/. <br>
 <br>
 :tada::tada::tada:News! <br>
-:mega: The first mapping and localization framework based on LiDAR fiducial markers has been released [here](https://github.com/yorklyb/LiDAR-SFM)! Check out the instance reconstruction results below. The top row displays the ground truth on the left and our result on the right. The bottom row shows Livox Mapping on the left and LOAM Livox on the right. <br>
+:mega: The first mapping and localization framework based on LiDAR fiducial markers has been released [here](https://github.com/yorklyb/LiDAR-SFM)! Check out the instance reconstruction results below. The top row displays the ground truth on the left and [ours](https://github.com/yorklyb/LiDAR-SFM) on the right. The bottom row shows [Livox Mapping](https://github.com/Livox-SDK/livox_mapping) on the left and [LOAM Livox](https://github.com/hku-mars/loam_livox) on the right. <br>
 <img width="250" height="150" src="https://github.com/yorklyb/LiDAR-SFM/assets/58899542/a1eba0cf-f41f-4d7a-89e3-4e31194c628a"/> <img width="250" height="150" src="https://github.com/yorklyb/LiDAR-SFM/assets/58899542/939e7ca6-b916-4831-a24d-869b6dc61686"/> <br>
 <img width="250" height="150" src="https://github.com/yorklyb/LiDAR-SFM/assets/58899542/cdaa5904-da4d-46ed-9f7a-9b063fd5c1df"/> <img width="250" height="150" src="https://github.com/yorklyb/LiDAR-SFM/assets/58899542/264ba542-7c4e-4f93-b0d3-6430ed96a920"/> <br>
 
